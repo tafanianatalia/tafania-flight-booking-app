@@ -14,3 +14,8 @@ Berikut algoritma sederhana dari Flight-Booking app:
 12. Masukan data penumpang yaitu nama, jenis kelamin(biasanya hanya menggunakan “MR”untuk laki-laki dan “MRS/MS”untuk perempuan),no telp dan e-mail.
 13. Proses booking tiket.
 14. Cetak kode booking.
+15. Proses masa berlaku kode booking (masa tunggu tiket).
+16. Validasikan masa berlaku kode booking. Jika berlaku jalankan perintah ke-16 dan jika berhenti jika tidak berlaku.
+17. Membayar tiket sesuai kode booking.
+18. Proses issued tiket.
+19. Cetak tiket.
