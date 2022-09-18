@@ -6,3 +6,7 @@ Berikut algoritma sederhana dari Flight-Booking app:
 4. Pada menu dashboard masukan asal keberangkatan.
 5. Masukan tujuan keberangkatan.
 6. Jika asal dan tujuan sama, maka ulangi perintah ke-5. Jika tidak pilih jenis penerbangan.
+7. Masukan tanggal, bulan, tahun, jadwal keberangkat dan Masukan tanggal, bulan, tahun, jadwal kembali untuk jenis “pulang pergi” dan masukkan Masukan tanggal, bulan, tahun, jadwal keberangkat saja untuk jenis  “satu arah”.
+8. Validasikan tanggal yang dipilih/dimasukan, jika tidak valid maka ulangi perintah ke-7 dan jika valid jalankan perintah ke-9.
+9. Masukkan jumlah tiket.
+10. Proses harga tiket.
