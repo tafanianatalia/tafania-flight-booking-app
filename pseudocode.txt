@@ -31,3 +31,11 @@ Else   End Program
 End If
 Kode_booking = price+name+jenis_kelamin+no.telp+email+masa_berlaku
 Print Kode_booking
+If Kode_booking = valid then
+                          Read bayar
+Else   End Program
+End If
+Membayar :
+
+Tiket = bayar+Kode_booking
+Print Tiket
