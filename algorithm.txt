@@ -1,0 +1,4 @@
+Berikut algoritma sederhana dari Flight-Booking app:
+
+1. Mulai
+2. Login, masukkan username dan Password
