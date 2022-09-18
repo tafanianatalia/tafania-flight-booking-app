@@ -2,3 +2,4 @@ Berikut algoritma sederhana dari Flight-Booking app:
 
 1. Mulai
 2. Login, masukkan username dan Password
+3. Jika username dan password valid maka lanjut ke tampilan dashboard. Jika tidak valid kembali ke menu login
