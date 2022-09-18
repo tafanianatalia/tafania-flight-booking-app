@@ -39,3 +39,14 @@ Membayar :
 
 Tiket = bayar+Kode_booking
 Print Tiket
+If Tiket = valid then
+                          Read bagasi
+Else   goto Membayar
+End If
+If bagasi > 20 kg then
+                          Read bayar_bagasi
+Else   Boarding_pass = Tiket+bagasi+bayar_bagasi
+         Print Boarding_pass
+
+End If
+END
