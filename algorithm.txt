@@ -1,0 +1,28 @@
+Berikut algoritma sederhana dari Flight-Booking app:
+
+1. Mulai
+2. Login, masukkan username dan Password
+3. Jika username dan password valid maka lanjut ke tampilan dashboard. Jika tidak valid kembali ke menu login
+4. Pada menu dashboard masukan asal keberangkatan.
+5. Masukan tujuan keberangkatan.
+6. Jika asal dan tujuan sama, maka ulangi perintah ke-5. Jika tidak pilih jenis penerbangan.
+7. Masukan tanggal, bulan, tahun, jadwal keberangkat dan Masukan tanggal, bulan, tahun, jadwal kembali untuk jenis “pulang pergi” dan masukkan Masukan tanggal, bulan, tahun, jadwal keberangkat saja untuk jenis  “satu arah”.
+8. Validasikan tanggal yang dipilih/dimasukan, jika tidak valid maka ulangi perintah ke-7 dan jika valid jalankan perintah ke-9.
+9. Masukkan jumlah tiket.
+10. Proses harga tiket.
+11. Validasikan harga tiket, jika cocok jalankan perintah ke-11 dan berhenti jika tidak cocok.
+12. Masukan data penumpang yaitu nama, jenis kelamin(biasanya hanya menggunakan “MR”untuk laki-laki dan “MRS/MS”untuk perempuan),no telp dan e-mail.
+13. Proses booking tiket.
+14. Cetak kode booking.
+15. Proses masa berlaku kode booking (masa tunggu tiket).
+16. Validasikan masa berlaku kode booking. Jika berlaku jalankan perintah ke-16 dan jika berhenti jika tidak berlaku.
+17. Membayar tiket sesuai kode booking.
+18. Proses issued tiket.
+19. Cetak tiket.
+20. Tunjukan tiket di check-in counter.
+21. Cek validasi tiket. Jika valid jalankan perintah ke-21 dan jika tidak, ulang perintah ke-17.
+22. Masukan bagasi.
+23. Cek bagasi apakah bagasi melebihi 20 kg. jika melebihi jalankan perintah ke-20 dan jika tidak jalankan perintah ke-24.
+24. Membayar Fee bagasi.
+25. Proses issued boarding pass.
+26. Cetak boarding pass.
