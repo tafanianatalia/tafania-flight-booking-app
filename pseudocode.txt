@@ -2,3 +2,7 @@ START
 Login :
 
 Read username || password
+If username && password = not valid then
+                goto login
+Else 
+Rute :
