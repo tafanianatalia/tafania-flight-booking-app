@@ -10,3 +10,18 @@ Rute :
 Read asal, tujuan
 If asal = tujuan then
                 goto input asal
+Else 
+Tanggal:
+
+Choose return ticket || one-way ticket
+If return ticket then
+         Read date, month, year, schedule flight departure && read date, month, year, jadwal_kembali
+Else
+         Read tgl, bulan, tahun, schedule flight departure
+End If
+End If
+If tgl = valid then
+        Read jumlah_tiket
+Else   goto Tanggal
+End If
+harga = tiket*jumlah_tiket
