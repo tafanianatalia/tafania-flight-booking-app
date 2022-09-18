@@ -1,0 +1,52 @@
+START
+Login :
+
+Read username || password
+If username && password = not valid then
+                goto login
+Else 
+Rute :
+
+Read asal, tujuan
+If asal = tujuan then
+                goto input asal
+Else 
+Tanggal:
+
+Choose return ticket || one-way ticket
+If return ticket then
+         Read date, month, year, schedule flight departure && read date, month, year, jadwal_kembali
+Else
+         Read tgl, bulan, tahun, schedule flight departure
+End If
+End If
+If tgl = valid then
+        Read jumlah_tiket
+Else   goto Tanggal
+End If
+harga = tiket*jumlah_tiket
+If harga = cocok then
+       Read nama, jenis_kelamin, telp, email
+Else   End Program
+End If
+Kode_booking = price+name+jenis_kelamin+no.telp+email+masa_berlaku
+Print Kode_booking
+If Kode_booking = valid then
+                          Read bayar
+Else   End Program
+End If
+Membayar :
+
+Tiket = bayar+Kode_booking
+Print Tiket
+If Tiket = valid then
+                          Read bagasi
+Else   goto Membayar
+End If
+If bagasi > 20 kg then
+                          Read bayar_bagasi
+Else   Boarding_pass = Tiket+bagasi+bayar_bagasi
+         Print Boarding_pass
+
+End If
+END
