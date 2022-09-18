@@ -25,3 +25,9 @@ If tgl = valid then
 Else   goto Tanggal
 End If
 harga = tiket*jumlah_tiket
+If harga = cocok then
+       Read nama, jenis_kelamin, telp, email
+Else   End Program
+End If
+Kode_booking = price+name+jenis_kelamin+no.telp+email+masa_berlaku
+Print Kode_booking
