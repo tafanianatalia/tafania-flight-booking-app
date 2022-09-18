@@ -6,3 +6,7 @@ If username && password = not valid then
                 goto login
 Else 
 Rute :
+
+Read asal, tujuan
+If asal = tujuan then
+                goto input asal
