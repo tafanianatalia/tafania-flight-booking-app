@@ -19,3 +19,10 @@ Berikut algoritma sederhana dari Flight-Booking app:
 17. Membayar tiket sesuai kode booking.
 18. Proses issued tiket.
 19. Cetak tiket.
+20. Tunjukan tiket di check-in counter.
+21. Cek validasi tiket. Jika valid jalankan perintah ke-21 dan jika tidak, ulang perintah ke-17.
+22. Masukan bagasi.
+23. Cek bagasi apakah bagasi melebihi 20 kg. jika melebihi jalankan perintah ke-20 dan jika tidak jalankan perintah ke-24.
+24. Membayar Fee bagasi.
+25. Proses issued boarding pass.
+26. Cetak boarding pass.
